@@ -2,7 +2,9 @@
 
 
 aws s3 cp CAvideos.csv s3://de-test-on-youtube-raw-useast1/youtube/raw_statistics/region=ca/
+
 aws s3 cp DEvideos.csv s3://de-test-on-youtube-raw-useast1/youtube/raw_statistics/region=de/
+
 aws s3 cp FRvideos.csv s3://de-test-on-youtube-raw-useast1/youtube/raw_statistics/region=fr/
 aws s3 cp GBvideos.csv s3://de-test-on-youtube-raw-useast1/youtube/raw_statistics/region=gb/
 aws s3 cp INvideos.csv s3://de-test-on-youtube-raw-useast1/youtube/raw_statistics/region=in/
